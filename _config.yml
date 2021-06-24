@@ -13,17 +13,17 @@ url:                 https://DevelopJSMAN.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             "DevelopJSMAN 블로그"
+tagline:             ""
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  DevelopJSMAN 블로그입니다.
+  임베디드와 웹 개발에 관심이 있는, 노력하는 대학생입니다.
 
 # This should be the same author as first entry in `_data/authors.yml`
-author:
-  name:              xxxx
-  email:             xxxx@xxxx.com
+DevelopJSMAN:
+  name:              Juseong Kim
+  email:             develop.jsman@gmail.com
 
 # Fallback image and color
 image:               /assets/img/main_left.JPG
@@ -131,4 +131,11 @@ compress_html:
 sass:
   style:             compressed
 
-
+tipue_search:
+     include:
+         pages: false
+         collections: []
+     exclude:
+         files: [search.html, index.html, tags.html]
+         categories: []
+         tags: []
